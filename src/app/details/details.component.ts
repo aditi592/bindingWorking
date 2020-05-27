@@ -7,7 +7,10 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class DetailsComponent implements OnInit {
 
-
+f='';
+l='';
+m='';
+a='';
   fname='';
   lname='';
   mno='';
@@ -19,7 +22,7 @@ export class DetailsComponent implements OnInit {
 
   ngOnInit() {
   }
-update(obj1,obj2,obj3,obj4,obj5)
+update(obj1,obj2,obj3,obj4)
 {
   this.fname= obj1;
   this.lname=obj2;

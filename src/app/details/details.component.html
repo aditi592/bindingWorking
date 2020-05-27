@@ -1,11 +1,11 @@
 <div class="grid-container">
-  <div class="grid-item"><input type="text" [(ngModel)] ="first" #firstName> First Name</div>
-  <div class="grid-item"><input name="lastName" ngModel pattern="[a-zA-Z ]*" 
-                      [(ngModel)]="last" #lastName > Last Name</div>
-  <div class="grid-item"><input name="mobileNo" ngModel pattern="[0-9]*" 
-                      [(ngModel)]="mobile" #mobileNo> Mobile No</div>
+  <div class="grid-item"><input type="text" [(ngModel)] ="f" #firstName> First Name</div>
+  <div class="grid-item"><input  ngModel pattern="[a-zA-Z ]*" 
+                      [(ngModel)]="l" #lastName > Last Name</div>
+  <div class="grid-item"><input  ngModel pattern="[0-9]*" 
+                      [(ngModel)]="m" #mobileNo> Mobile No</div>
   <div class="grid-item"><textarea ng-model="myTextarea" 
-                      [(ngModel)]="address" #addRess></textarea> Address</div>
+                      [(ngModel)]="a" #addRess></textarea> Address</div>
   
   <div class="grid-item">
         <button type="button" [disabled]="d"
